@@ -21,7 +21,7 @@ export const Home = () => {
       <section className="header__section" id="home">
         <img src="/assets/herodog.png"></img>
 
-        <div className="header__inner__con " data-aos="zoom-in-down">
+        <div className="header__inner__con ">
           <div className="header__con">
             <h1 className="header__text">The Tale of BigL</h1>
 
@@ -47,12 +47,10 @@ export const Home = () => {
             lives. That’s when his true mission began.
           </h2>
 
-          <ScrollLink to="explore" className="button">
-            <div className="button__con">
-              Click for the Full Story on X
-            </div>
+          <div className="button__con">
+            <p> Click for the Full Story on X</p>
             <img src="/assets/pointing.svg"></img>
-          </ScrollLink>
+          </div>
         </div>
       </section>
 
@@ -108,6 +106,7 @@ export const Home = () => {
           <div className="whoweare">
             <div className="box">
               <div className="box_1">
+                <img src="/assets/calzone-gif 1.svg"></img>
                 <h2>3% Grants Wallet</h2>
                 <h3>B 15,000,000,000</h3>
                 <h4>Raised</h4>
@@ -118,6 +117,7 @@ export const Home = () => {
               </div>
 
               <div className="box_1">
+                <img src="/assets/paw-gif 1.svg"></img>
                 <h2>1% Charity Wallet</h2>
                 <h3>15,000</h3>
                 <h4>Raised</h4>
@@ -128,6 +128,7 @@ export const Home = () => {
               </div>
 
               <div className="box_1">
+                <img src="/assets/calzone-gif 1.svg"></img>
                 <h2>1% Token Burn</h2>
                 <h3>45,000</h3>
                 <h4>Burned</h4>
@@ -172,11 +173,13 @@ export const Home = () => {
                 <li>10%</li>
               </ul>
             </div>{" "}
+            <div className="start__bling">
+              <img src="/assets/startbigling.svg"></img>
+              <img src="/assets/errow-gif 5.svg"></img>
+            </div>
           </div>
-          <div className="start__bling">
-            <img src="/assets/startbigling.svg"></img>
-            <img src="/assets/errow-gif 5.svg"></img>
-          </div>
+
+          <img src="/assets/gif3.png"></img>
         </div>
       </section>
 
@@ -198,22 +201,23 @@ export const Home = () => {
               <div className="box_2">
                 <h3>Where is your SOL?</h3>
                 <h6>
-                You will need some SOL in your Wallet SO you can buy directly on PHANTOM, transfer from another Wallet or just Buy elsewhere and transfer to your Wallet
+                  You will need some SOL in your Wallet SO you can buy directly
+                  on PHANTOM, transfer from another Wallet or just Buy elsewhere
+                  and transfer to your Wallet
                 </h6>
               </div>
 
               <div className="box_2">
                 <h3>Go to JUPITER or RAYDIUM</h3>
                 <h6>
-                Connect your Wallet in Chrome, paste the $BigL Token Address,  select  trade and confirm. Sign on PHANTOM
+                  Connect your Wallet in Chrome, paste the $BigL Token Address,
+                   select trade and confirm. Sign on PHANTOM
                 </h6>
               </div>
 
               <div className="box_2">
                 <h3>Swap for BigL</h3>
-                <h6>
-                Swap your SOL for BigL
-                </h6>
+                <h6>Swap your SOL for BigL</h6>
               </div>
             </div>
           </div>
@@ -224,8 +228,7 @@ export const Home = () => {
         <div className="our__service__con">
           <div
             className="our__service"
-            data-aos="fade-up"
-            data-aos-duration="1000"
+ 
           >
             {" "}
             <h1 className="our__service__heading">Start BigLing</h1>
@@ -235,8 +238,7 @@ export const Home = () => {
           </div>
 
           <div
-            data-aos="fade-up"
-            data-aos-duration="3000"
+       
             className="jupiter__image"
           >
             <img src="./assets/jupiter.png" alt="" />

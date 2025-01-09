@@ -11,7 +11,6 @@
 .header__section img {
   z-index: 1000;
   width: 500px;
-  height: 1400px;
   flex-shrink: 0;
 }
 .header__inner__con h2 {
@@ -52,14 +51,16 @@
 
 /***************************************** Button section **********************************************************************************/
 
-.button {
-  display: flex;
-  align-items: center;
-  background-color: #000;
-  padding: 0;
-}
+
 
 .button__con {
+  display: flex;
+  color: #6d0f43;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.button__con p {
   color: #6d0f43;
   font-family: "Murtaugh Condensed L";
   font-size: 36px;
@@ -73,12 +74,7 @@
   border: none;
 }
 
-.icon-container {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 10px;
-}
+
 
 /***************************************** Who we are section **********************************************************************************/
 
@@ -176,14 +172,19 @@
   margin: 0 1rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 2rem;
   padding: 2rem;
+  align-items: center;
 }
-.box img {
-  width: 550px;
-  height: 400px;
+
+.box_1 img {
+  width: 185px;
+  height: 162px;
   flex-shrink: 0;
 }
+
+
 
 .box__3 {
   display: flex;
@@ -196,6 +197,7 @@
   display: flex;
   justify-content: center;
   padding: 80px;
+  align-items: center;
 }
 
 .box_2 h3 {
@@ -297,15 +299,21 @@
 
 .tokenomics__section {
   background: #6a7e5b;
-  padding: 80px;
+  padding: 80px 0 80px 80px;
   transform: translateY(-50rem); /* Equivalent to -30px */
 }
+
+.tokenomics__container {
+  display: flex;
+}
+
 .tokenomics__header {
   display: flex;
-  gap: 2rem;
+  gap: 8rem;
   justify-content: center;
   align-items: flex-end;
 }
+
 .tokenomics__header h1 {
   color: #dfbf7d;
   font-family: GroteskRemix-Monospace-trial;
@@ -315,29 +323,41 @@
   line-height: 120.2px; /* 95.056% */
   width: 547px;
 }
+
 .start__bling {
   display: flex;
   gap: 30px;
 }
 
+.tokenomics__header li {
+  color: #dfbf7d;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 76px; /* 190% */
+}
+
 .tokenomics {
   display: flex;
-  gap: 12rem;
+  gap: 8rem;
 }
 
 .tokenomics li {
   color: #dfbf7d;
   font-family: GroteskRemix-Monospace-trial;
-  font-size: 40px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: 76px; /* 190% */
 }
+
 .tokenomics__container img {
-  width: 351.87px;
-  height: 1243.31px;
-  flex-shrink: 0;
+    width: 250px;
+    /* height: 900px; */
+    flex-shrink: 0;
+    
 }
+
 /***************************************** Service section **********************************************************************************/
 
 .our__service__section {
