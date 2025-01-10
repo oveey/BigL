@@ -51,8 +51,6 @@
 
 /***************************************** Button section **********************************************************************************/
 
-
-
 .button__con {
   display: flex;
   color: #6d0f43;
@@ -74,23 +72,59 @@
   border: none;
 }
 
-
-
 /***************************************** Who we are section **********************************************************************************/
 
 .comment__section {
   background: #e3ead8;
-  padding: 30px 50px;
+  padding: 35px 80px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  transform: translateY(-50rem); /* Equivalent to -30px */
+  align-items: flex-end;
+  justify-content: flex-end;
+
+  transform: translateY(-60rem); /* Equivalent to -30px */
 }
 
 .comment__con {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
+  padding-right: 200px;
+}
+
+.comment__con img {
+  width: 600px;
+  height: 500px;
+  flex-shrink: 0;
+}
+
+.comment__tag {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-end;
+}
+
+button {
+  display: flex;
+  border: 2px solid #6d0f43;
+  border-radius: 10px;
+  align-items: center;
+  gap: 3rem;
+  width: 400px;
+  height: 65px;
+  background: transparent;
+  justify-content: center;
+}
+.contract {
+  fill: #6d0f43;
+}
+.contract p {
+  color: #e3ead8;
+  font-family: "Murtaugh Condensed L";
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 146%; /* 46.72px */
+  padding: 2rem;
 }
 
 .whoweare__section h1 {
@@ -112,6 +146,34 @@
   font-weight: 700;
   line-height: 93%; /* 113.434px */
 }
+.whoweare__section2 {
+  background: #e3ead8;
+  padding: 80px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(-60rem); /* Equivalent to -30px */
+}
+
+.whoweare__section2 h1 {
+  color: #6d0f43;
+  text-align: center;
+  font-family: "Murtaugh Condensed L";
+  font-size: 80.972px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 93%; /* 113.434px */
+}
+
+.whoweare__section2 h2 {
+    color: #6d0f43;
+    text-align: center;
+    font-family: "Murtaugh Condensed L";
+    font-size: 80.972px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 93%; /* 113.434px */
+  }
 
 .whoweare__section {
   background: #e3ead8;
@@ -119,7 +181,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  transform: translateY(-50rem); /* Equivalent to -30px */
+  transform: translateY(-60rem); /* Equivalent to -30px */
 }
 
 .whoweare__con {
@@ -179,18 +241,17 @@
 }
 
 .box_1 img {
-  width: 185px;
-  height: 162px;
+  width: 285px;
+  height: 262px;
   flex-shrink: 0;
 }
-
-
 
 .box__3 {
   display: flex;
   justify-content: center;
-  padding: 80px;
-  gap: 2rem;
+  padding: 80px 0 50px 50px;
+  /* flex-wrap: wrap; */
+  gap: 10px;
 }
 
 .box {
@@ -200,6 +261,9 @@
   align-items: center;
 }
 
+.box_2 {
+  padding: 2rem;
+}
 .box_2 h3 {
   color: #6d0f43;
   font-family: GroteskRemix-Monospace-trial;
@@ -223,24 +287,29 @@
 
 .Purpose__section {
   background: #6a7e5b;
-  padding: 80px;
-  transform: translateY(-50rem); /* Equivalent to -30px */
+  padding: 80px 0 80px 80px;
+  transform: translateY(-60rem); /* Equivalent to -30px */
 }
 .Purpose__section h1 {
-  color: #6a7e5b;
+  color: #ffff;
   font-family: "Murtaugh Condensed L";
   font-size: 94.292px;
-  font-style: italic;
   font-weight: 900;
   line-height: 94%; /* 88.634px */
   letter-spacing: -2.829px;
+  margin-bottom: 5rem;
 }
-
 .Purpose__con {
   display: flex;
+  gap: 4rem;
+  align-items: flex-start;
+}
+
+.Purpose__heading {
+  display: flex;
   gap: 20px;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 .Purpose__text {
@@ -248,8 +317,8 @@
   gap: 40px;
   align-items: flex-end;
 }
+
 .Purpose__text h2 {
-  width: 925px;
   color: #e3ead8;
   font-family: "Murtaugh Condensed L";
   font-size: 48px;
@@ -275,6 +344,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 146%; /* 40.88px */
+  max-width: 655px;
 }
 
 .paw__image img {
@@ -294,17 +364,50 @@
   letter-spacing: -2.52px;
   max-width: 615px;
 }
+.section__5 {
+  background: #6d0f43;
+  padding: 200px;
+  transform: translateY(-60rem); /* Equivalent to -30px */
+}
+.section__5 h1 {
+  color: var(--Color-6, #dfbf7d);
+  font-family: "Murtaugh Condensed L";
+  font-size: 500px;
+  font-weight: 700;
+  line-height: 91%; /* 728.816px */
+  letter-spacing: -24.027px;
+}
+
+.ba_da_bling {
+  display: flex;
+  flex-direction: column;
+  gap: -200rem;
+}
+
+.ba {
+  transform: rotate(-14.445deg);
+}
+.da {
+  transform: rotate(-12.98deg);
+  position: relative;
+  left: 40rem;
+  bottom: 5rem;
+}
+.bling {
+  transform: rotate(11.103deg);
+}
 
 /***************************************** tokenomics section **********************************************************************************/
 
 .tokenomics__section {
   background: #6a7e5b;
-  padding: 80px 0 80px 80px;
-  transform: translateY(-50rem); /* Equivalent to -30px */
+  padding: 80px 0 40px 80px;
+  transform: translateY(-60rem); /* Equivalent to -30px */
 }
 
 .tokenomics__container {
   display: flex;
+  justify-content: space-between;
 }
 
 .tokenomics__header {
@@ -340,6 +443,11 @@
 .tokenomics {
   display: flex;
   gap: 8rem;
+  margin-top: 40px;
+}
+
+.tokenomics__list_2 {
+  text-align: right;
 }
 
 .tokenomics li {
@@ -352,10 +460,9 @@
 }
 
 .tokenomics__container img {
-    width: 250px;
-    /* height: 900px; */
-    flex-shrink: 0;
-    
+  width: 250px;
+  /* height: 900px; */
+  flex-shrink: 0;
 }
 
 /***************************************** Service section **********************************************************************************/
@@ -363,7 +470,7 @@
 .our__service__section {
   padding: 96px;
   background: #6d0f43;
-  transform: translateY(-50rem); /* Equivalent to -30px */
+  transform: translateY(-60rem); /* Equivalent to -30px */
 }
 .our__service {
   text-align: left;
@@ -420,162 +527,10 @@
   max-width: 615px;
 }
 
-/***************************************** Destination section **********************************************************************************/
-
-.destination__section {
-  display: flex;
-  padding: 96px;
-  flex-direction: column;
-}
-.destination__heading {
-  font-size: 48px;
-  font-weight: 400;
-  color: var(--Shark-700, #4c4d58);
-}
-
-.destination__con {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.destination__img {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-}
-
-.explore-button {
-  color: white;
-  cursor: pointer;
-}
-
-.image__con {
-  height: 480px;
-  width: 100%;
-  flex: 1 1 calc(50% - 10px);
-  max-width: calc(50% - 20px);
-  background-size: cover;
-  background-position: center;
-  margin: 10px;
-  border-radius: 8px;
-  color: white;
-}
-
-.inside__image__text {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 30px 35px;
-  justify-content: space-between;
-  align-items: flex-start;
-  height: 100%;
-}
-
-.inside__image__text h1 {
-  padding: 8px 16px;
-  border-radius: 8px;
-  border: 0.769px solid rgba(255, 255, 255, 0.26);
-  background: rgba(90, 104, 165, 0.13);
-  backdrop-filter: blur(6.92307710647583px);
-}
-
-.inside__image__text p {
-  display: flex;
-  align-items: center;
-  padding-left: 16px;
-  font-weight: 500;
-  border-radius: 138.462px;
-  border: 0.769px solid rgba(255, 255, 255, 0.26);
-  background: rgba(255, 255, 255, 0.14);
-  backdrop-filter: blur(6.92307710647583px);
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease,
-    box-shadow 0.3s ease;
-}
-
-.inside__image__text p:hover {
-  transform: scale(1.05); /* Slightly increase size */
-}
-
-.inside__image__text p:hover svg {
-  transform: translateX(5px); /* Slightly move the arrow to the right */
-}
-
-.arrow-icon-font-awesome2 {
-  font-size: 40px; /* Adjust the size of the Font Awesome icon */
-  color: rgb(0, 0, 0); /* Make the icon white */
-  background: #eff8ff;
-  border-radius: 50%; /* Make it circular */
-  padding: 2px; /* Add some padding to make it look like a button */
-  margin-left: 10px; /* Space between the text and the icon */
-  transform: rotate(-40deg); /* Rotate the icon by 45 degrees */
-}
-
-/***************************************** Team section **********************************************************************************/
-
-.team__section {
-  padding: 96px;
-}
-
-.team__heading {
-  font-size: 48px;
-  font-weight: 400;
-  color: var(--Shark-700, #4c4d58);
-}
-
-.team__con {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  gap: 3rem;
-}
-
-.team__img {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-}
-
-.team__image__con {
-  height: 400px; /* Adjust as needed */
-  width: calc(33.33% - 20px);
-  flex: 1 1 calc(50% - 10px); /* Each image takes 50% width minus the gap */
-  max-width: calc(
-    33.33% - 20px
-  ); /* Prevents exceeding a third of the container */
-  background-size: cover;
-  background-position: initial;
-  margin: 10px; /* Adjust spacing as needed */
-  color: white;
-  transition: box-shadow 0.3s ease;
-}
-
-.team__image__con:hover {
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Add a shadow on hover */
-}
-
-.team__text {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: flex-end;
-}
-
-.team__bg {
-  padding: 16px;
-  backdrop-filter: blur(6.92307710647583px);
-  background: #00000033;
-  width: 100%;
-}
-
 /***************************************** Footer section **********************************************************************************/
 
 .location__section {
-  transform: translateY(-50rem); /* Equivalent to -30px */
+  transform: translateY(-60rem); /* Equivalent to -30px */
   background: #e3ead8;
 }
 
@@ -586,13 +541,13 @@
 }
 
 .location__con {
-  padding: 96px;
+  padding: 100px;
   display: flex;
   flex-direction: column;
-  text-align: center;
   align-items: center;
   gap: 64px;
 }
+
 .location__header h1 {
   color: #6d0f43;
   font-family: "Murtaugh Condensed L";
@@ -600,13 +555,6 @@
   font-style: normal;
   font-weight: 700;
   line-height: 93%; /* 113.434px */
-}
-
-.location__con {
-  max-width: 2280px;
-  width: 100%;
-  height: auto;
-  flex-shrink: 0;
 }
 
 .location__sub {
@@ -638,9 +586,42 @@
   max-width: 1422px;
   height: 711px;
 }
+.dogtext_2_container {
+  display: flex;
+  gap: 80px;
+  justify-content: flex-start;
+}
 .dogtext {
   display: flex;
   gap: 4rem;
+}
+
+.dogtext_3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.dogtext_3 h2 {
+  text-align: left;
+}
+.dogtext h2 {
+  text-align: left;
+  padding: 30px 0;
+}
+
+.dogtext_2 h1 {
+  text-align: left;
+  padding: 30px 0;
+  color: #6d0f43;
+  font-family: "Murtaugh Condensed L";
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 106%; /* 95.4px */
+}
+
+.dogtext_2 h2 {
+  text-align: left;
 }
 .dogtext h2 {
   padding: 30px 0;
@@ -652,45 +633,7 @@
   text-align: left;
 }
 
-/***************************************** Media query **********************************************************************************/
-/* @media (max-width: 2680px) {
-  
-    .whoweare__section {
-  
-      padding: 10px 400px;
-   
-    }
-  
-    .comment__section {
-      padding: 450px;
-    }
-  
-    .our__service__section {
-      padding: 10px 400px;
-      
-    }
-  
-    .destination__section {
-      padding: 400px;
-    }
-  
-    .testimonial__section {
-      padding: 400px;
-   
-    }
-  
-    .location__section {
-      padding: 400px;
-  
-    }
-    .team__section {
-      padding: 400px;
-  
-    }
-  
-  
-   
-  } */
+
 
 @media (max-width: 1200px) {
   .header__section {
@@ -766,10 +709,6 @@
     font-size: 16px;
   }
 
-  .comment__con img {
-    width: 10%;
-    height: auto;
-  }
 
   /***************************************** Service section **********************************************************************************/
 
@@ -788,10 +727,7 @@
     margin-bottom: 20px;
   }
 
-  .our__service__heading {
-    font-size: 32px;
-    margin-right: 6px;
-  }
+
   .image_set {
     display: flex;
     align-content: flex-start;
@@ -802,95 +738,9 @@
     width: 300px;
   }
 
-  /***************************************** Destination section **********************************************************************************/
 
-  .destination__section {
-    padding: 30px;
-    margin-bottom: 6rem;
-  }
-  .destination__heading {
-    font-size: 40px;
-  }
 
-  .image__con {
-    max-width: 457px;
-    width: 100%;
-  }
 
-  /***************************************** Testimonial section **********************************************************************************/
-
-  .testimonial__section {
-    padding: 30px;
-    gap: 64px;
-    margin-bottom: 6rem;
-  }
-
-  .testimonial__heading {
-    font-size: 40px;
-    width: 100%;
-  }
-
-  .testimonial__con {
-    gap: 2rem;
-  }
-
-  .testimonial__con img {
-    width: 20%;
-  }
-
-  .testimonial__sub h2 {
-    width: 606px;
-  }
-
-  .testimonial__cap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-  }
-
-  .testimonial__icon {
-    gap: 10px;
-  }
-
-  .testimonial__swiper {
-    width: 100%; /* Full width of the container */
-    margin: 20px auto; /* Center the Swiper and add vertical space */
-    max-width: 1200px; /* Optional: limit the max width for larger screens */
-  }
-
-  .testimonial__swiper {
-    width: 100%;
-    height: 30vh;
-  }
-
-  /***************************************** Team section **********************************************************************************/
-
-  .team__section {
-    padding: 30px;
-    margin-bottom: 150px;
-  }
-
-  .team__heading {
-    font-size: 40px;
-  }
-
-  .team__con {
-    flex-direction: column;
-    gap: 3rem;
-  }
-
-  .team__img {
-    width: 100%;
-  }
-
-  .team__image__con {
-    height: 400px;
-    width: 100%;
-    max-width: calc(50% - 20px);
-    margin: 10px; /* Adjust spacing as needed */
-  }
 
   /***************************************** Footer section **********************************************************************************/
 
@@ -903,25 +753,21 @@
   .header__section {
     padding-bottom: 400px;
     flex-direction: column-reverse;
+    align-items: center;
     padding: 16px;
   }
 
   .header__section img {
-    z-index: 1000;
-    width: 300px;
-    height: 800px;
-    flex-shrink: 0;
+    z-index: 0;
   }
 
   .header__inner__con {
     gap: 2rem;
+    padding: 16px;
   }
 
   .header__text {
-    margin-top: 200px;
     font-size: 75.762px;
-    max-width: 400px;
-    line-height: 120%; /* 57.6px */
   }
 
   .header__p {
@@ -929,23 +775,37 @@
     flex-direction: column;
   }
 
-  /***************************************** Button section **********************************************************************************/
-
-  .button__con {
-    padding-left: 32px;
-    font-size: 16px;
+  .comment__tag {
+    flex-direction: column;
   }
 
-  .arrow-icon-font-awesome {
-    font-size: 60px;
+  .section__5 {
+    display: none;
   }
+
+  .Purpose__section {
+    padding: 16px;
+    transform: translateY(-66rem); /* Equivalent to -30px */
+
+  }
+  .Purpose__text {
+    flex-direction: column;
+  }
+
+
+
 
   /***************************************** Who we are section **********************************************************************************/
 
   .whoweare__section {
     padding: 1rem;
-    transform: translateY(-10rem);
+    transform: translateY(-70rem);
     margin-bottom: 2px;
+  }
+
+  .whoweare__section2 {
+    padding: 1rem;
+    transform: translateY(-134rem);
   }
   .whoweare {
     margin-top: 50px;
@@ -954,17 +814,12 @@
     font-size: 25px;
   }
 
-  .whoweare p {
-    width: 7rem;
-    padding: 4px 12px;
-    margin-bottom: 8px;
-  }
-
   .whoweare__con {
     padding: 0 16px;
     align-items: center;
     flex-direction: column;
     gap: 64px;
+
   }
 
   .img__con {
@@ -979,26 +834,16 @@
   }
 
   .box {
-    display: flex;
     flex-direction: column;
-    min-width: 240px;
-    flex-wrap: nowrap;
     gap: 18px;
-    flex: 0 0 0;
-    margin-top: 40px;
   }
 
-  .box_1 {
-    display: flex;
-    padding: 16px 18px;
+  .box__3 {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-    border-radius: 8px;
-    border: 1px solid var(--Shark-200, #d9d9de);
-    height: 176px;
-    width: 100%;
+  }
+
+  .our__service__con {
+    flex-direction: column;
   }
 
   .box_1 h3 {
@@ -1013,7 +858,6 @@
 
   .comment__section {
     padding: 16px;
-    margin-bottom: 6rem;
   }
 
   .comment__con {
@@ -1034,11 +878,6 @@
     font-size: 16px;
   }
 
-  .comment__con img {
-    width: 10%;
-    height: auto;
-  }
-
   /***************************************** Service section **********************************************************************************/
 
   .our__service__section {
@@ -1056,177 +895,36 @@
     margin-bottom: 20px;
   }
 
-  .our__service__heading {
-    font-size: 32px;
-    margin-right: 6px;
-  }
-  .image_set {
-    display: flex;
-    align-content: flex-start;
-    justify-content: flex-start;
-    gap: 20px;
-  }
+ 
   .image_set img {
     width: 300px;
   }
 
-  /***************************************** Destination section **********************************************************************************/
-
-  .destination__section {
-    padding: 16px;
-    margin-bottom: 6rem;
-  }
-  .destination__heading {
-    font-size: 32px;
-  }
-
-  /* .destination__con {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      gap: 44px;
-    } */
-  /* 
-    .destination__img {
-      display: flex;
-      flex-wrap: wrap;
-    } */
-
-  .image__con {
-    max-width: 347px;
-  }
-
-  .inside__image__text {
-    display: flex;
-    width: 100%;
+  .Purpose__con {
     flex-direction: column;
-    align-items: flex-start;
-    padding: 30px 35px;
-    justify-content: space-between;
-    align-items: flex-start;
-    height: 100%; /* Adjust as needed */
-  }
-
-  .inside__image__text h1 {
-    padding: 8px 16px;
-    border-radius: 8px;
-    border: 0.769px solid rgba(255, 255, 255, 0.26);
-    background: rgba(90, 104, 165, 0.13);
-    backdrop-filter: blur(6.92307710647583px);
-  }
-
-  .inside__image__text p {
-    display: flex;
-    align-items: center;
-    padding-left: 16px;
-    font-weight: 500;
-    border-radius: 138.462px;
-    border: 0.769px solid rgba(255, 255, 255, 0.26);
-    background: rgba(255, 255, 255, 0.14);
-    backdrop-filter: blur(6.92307710647583px);
-    cursor: pointer;
-  }
-  .arrow-icon-font-awesome2 {
-    font-size: 40px; /* Adjust the size of the Font Awesome icon */
-    color: rgb(0, 0, 0); /* Make the icon white */
-    background: #eff8ff;
-    border-radius: 50%; /* Make it circular */
-    padding: 2px; /* Add some padding to make it look like a button */
-    margin-left: 10px; /* Space between the text and the icon */
-    transform: rotate(-40deg); /* Rotate the icon by 45 degrees */
-  }
-
-  /***************************************** Testimonial section **********************************************************************************/
-
-  .testimonial__section {
-    padding: 16px;
-    gap: 64px;
-    margin-bottom: 6rem;
-  }
-
-  .testimonial__heading {
-    font-size: 32px;
-    width: 100%;
-  }
-
-  .testimonial__con {
-    flex-direction: column;
-    gap: 2rem;
-  }
-
-  .testimonial__con img {
-    cursor: pointer;
-    width: 30%;
-  }
-  .testimonial__sub {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
-
-  .testimonial__sub h2 {
-    width: 306px;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 400;
-    color: var(--Gray-900, #101828);
-    margin-bottom: 40px;
-  }
-
-  .testimonial__cap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-  }
-
-  .testimonial__icon {
-    gap: 10px;
-  }
-
-  .testimonial__swiper {
-    width: 100%; /* Full width of the container */
-    margin: 20px auto; /* Center the Swiper and add vertical space */
-    max-width: 1200px; /* Optional: limit the max width for larger screens */
-  }
-
-  .testimonial__swiper {
-    width: 100%;
-    height: 56vh;
-  }
-
-  .team__section {
-    padding: 16px;
-    margin-bottom: 130px;
-  }
-
-  .team__heading {
-    font-size: 32px;
-  }
-
-  .team__con {
-    flex-direction: column;
-    gap: 3rem;
-  }
-
-  .team__img {
-    width: 100%;
-  }
-  .team__text h1 {
-    font-size: 20px;
-  }
-
-  .team__image__con {
-    height: 400px;
-    width: 100%;
-    max-width: 500px; /* Prevents exceeding a third of the container */
-    margin: 10px; /* Adjust spacing as needed */
+    align-items: flex-end;
   }
 
   /***************************************** Footer section **********************************************************************************/
+  .location__header {
+    flex-direction: column;
+  }
+  .location__header h1 {
+    font-size: 70px;
+    text-align: left;
+  }
+
+  .location__header img {
+    display: none;
+  }
+
+  .dogtext {
+    flex-direction: column;
+  }
+
+  .dogtext_2_container {
+    flex-direction: column;
+  }
 
   .location__section {
     padding: 16px;
@@ -1236,10 +934,7 @@
   }
 
   .location__con {
-    max-width: 1280px;
-    width: 100%;
-    height: auto;
-    flex-shrink: 0;
+    padding: 16px;
   }
 
   .location__sub {
@@ -1253,17 +948,14 @@
     color: var(--Gray-900, #101828);
     margin-bottom: 60px;
   }
-  /* 
-    .location__sub h2 {
-      font-size: 20px;
-      font-weight: 600;
-      margin-top: 30px;
-    }
-  
-    .location__sub p {
-      font-size: 16px;
-      font-weight: 400;
-      margin-top: 10px;
-      color: var(--Shark-500, #737584);
-    } */
+
+  .tokenomics__section {
+    transform: translateY(20rem);
+  }
+
+  .tokenomics__container img {
+    display: none;
+  }
+
+
 }

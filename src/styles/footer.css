@@ -9,14 +9,11 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  border-bottom: 1px solid #ffffff0e;
+  gap: 30px;
   padding-bottom: 60px;
-  margin-top: 30px;
 }
 
-.footer__logo {
-  width: 20%;
-}
+
 
 .footer__links {
   display: flex;
@@ -68,22 +65,14 @@
 .logo__text {
   margin-top: 32px;
   font-size: 20px;
+  width: 50%;
 }
 
 .footer__links2 li a {
   color: #000000;
   text-decoration: none;
 }
-/* 
-  @media (max-width: 2680px) {
-  
-    .footer__section {
-     
-      padding: 96px 400px ;
-    
-    }
-  
-  } */
+
 
 .icon {
   color: #fff;
@@ -119,4 +108,6 @@
   .icon {
     font-size: 30px;
   }
+ 
+
 }

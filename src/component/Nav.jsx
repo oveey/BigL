@@ -62,28 +62,28 @@ export const Nav = () => {
 
       <ul className={`${isOpen ? "open" : ""}`}>
         <li>
-          <Link to="/#home" className="nav_link">
+          <Link to="/" className="nav_link">
             The story
           </Link>
         </li>
         <li>
-          <Link to="/#who" className="nav_link">
+          <Link to="/" className="nav_link">
             The Cause
           </Link>
         </li>
         <li>
-          <Link to="/#faq" className="nav_link">
+          <Link to="/" className="nav_link">
             Tokenomics
           </Link>
         </li>
         <li>
-          <Link to="/blogs" className="nav_link">
+          <Link to="/" className="nav_link">
             Knowledge
           </Link>
         </li>
 
         <li>
-          <Link to="/blogs" className="nav_link">
+          <Link to="/" className="nav_link">
             <img
               src="/assets/Buybutton.svg"
               className="nav_icon"
@@ -92,7 +92,7 @@ export const Nav = () => {
         </li>
 
         <li>
-          <Link to="/blogs" className="nav_link">
+          <Link to="/" className="nav_link">
             <img
               src="/assets/telegram.svg"
               className="nav_icon"
@@ -100,7 +100,7 @@ export const Nav = () => {
           </Link>
         </li>
         <li>
-          <Link to="/blogs" className="nav_link">
+          <Link to="/" className="nav_link">
             <img
               src="/assets/X.svg"
               className="nav_icon"

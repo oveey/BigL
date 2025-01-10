@@ -56,14 +56,14 @@ export const Footer = () => {
 
             <div className="footer__logo">
               <img src="/assets/telegram1.svg" alt="logo" />
-              <img src="/assets/twitter.svg" alt="logo" />
+              <img src="/assets/twiiter.svg" alt="logo" />
               <p className="logo__text">Contact</p>
               <p className="logo__text">contact@biglcoin.com</p>
             </div>
           </div>
         </div>
         <div className="footer__section2">
-          <div className="footer__two" data-aos="fade-up">
+          <div className="footer__two">
             <p>&copy; {new Date().getFullYear()} BigL All rights reserved.</p>
           </div>
         </div>

@@ -55,13 +55,21 @@ export const Home = () => {
       </section>
 
       <section className="comment__section" id="who">
-        <div className="comment__con">
-          <div className="yyy">
+        <div className="comment">
+          <div className="comment__con">
             <img src="/assets/comment.svg"></img>
 
-            {/* <div className="box_1">
+            <div className="box_1">
               <img src="/assets/coin2.svg"></img>
-            </div> */}
+            </div>
+          </div>
+          <div className="comment__tag">
+            <img src="/assets/startbigling.svg"></img>
+            <button>
+              <p className="contract">Contract Address</p>
+              <p>djdsfb384y34o343n </p>
+              <img src="/assets/copy.svg"></img>
+            </button>
           </div>
         </div>
       </section>
@@ -88,14 +96,17 @@ export const Home = () => {
               <img src="/assets/startbigling.svg"></img>
             </div>
           </div>
-
-          {/* <div
-            data-aos="fade-up"
-            data-aos-duration="3000"
-            className="paw__image"
-          >
+          <div className="paw__image">
             <img src="/assets/likepaw1.png" alt="" />
-          </div> */}
+          </div>
+        </div>
+      </section>
+
+      <section className="section__5">
+        <div className="ba_da_bling">
+          <h1 className="ba">Ba</h1>
+          <h1 className="da">Da</h1>
+          <h1 className="bling">Bling</h1>
         </div>
       </section>
 
@@ -106,7 +117,7 @@ export const Home = () => {
           <div className="whoweare">
             <div className="box">
               <div className="box_1">
-                <img src="/assets/calzone-gif 1.svg"></img>
+                <img src="/assets/bag-gif 1.svg"></img>
                 <h2>3% Grants Wallet</h2>
                 <h3>B 15,000,000,000</h3>
                 <h4>Raised</h4>
@@ -163,7 +174,7 @@ export const Home = () => {
                 <li>Ecosystem development</li>
               </ul>
 
-              <ul className="tokenomics__list">
+              <ul className="tokenomics__list_2">
                 <li>10,000,000,000</li>
                 <li>10%</li>
                 <li>15%</li>
@@ -183,9 +194,11 @@ export const Home = () => {
         </div>
       </section>
 
-      <section className="whoweare__section" id="who">
+      <section className="whoweare__section2" id="who">
         <h1>Paws & reflect</h1>
         <h1>How to start BigLing</h1>
+        {/* <img src="/assets/sketches2.svg"></img> */}
+
         <div className="whoweare__con">
           <div className="whoweare">
             <div className="box__3">
@@ -226,10 +239,7 @@ export const Home = () => {
 
       <section className="our__service__section">
         <div className="our__service__con">
-          <div
-            className="our__service"
- 
-          >
+          <div className="our__service">
             {" "}
             <h1 className="our__service__heading">Start BigLing</h1>
             <div className="Jup__button">
@@ -237,10 +247,7 @@ export const Home = () => {
             </div>
           </div>
 
-          <div
-       
-            className="jupiter__image"
-          >
+          <div className="jupiter__image">
             <img src="./assets/jupiter.png" alt="" />
           </div>
         </div>
@@ -253,11 +260,7 @@ export const Home = () => {
         </div>
 
         <div className="location__conn">
-          <div
-            className="location__con"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
+          <div className="location__con">
             <div className="dogtext">
               <h2>
                 Dogs possess one of the most extraordinary olfactory systems in
@@ -285,30 +288,34 @@ export const Home = () => {
               className="dogpic"
             ></img>
 
-            <div className="dogtext">
-              <h1>Yet traditional funding is significantly lacking.</h1>
-              <h2>
-                This creates a critical gap in advancing early detection methods
-                that are both powerful and affordable for everyone.
-              </h2>
-            </div>
+            <div className="dogtext_2_container">
+              <div className="dogtext_2">
+                <h1>Yet traditional funding is significantly lacking.</h1>
+                <h2>
+                  Mainstream VC funding often flows to large corporations
+                  focused on expensive detection methods that are not only less
+                  accessible but, in many cases, less accurate, invasive, and
+                  emit radiation.
+                </h2>
+              </div>
 
-            <div className="dogtext">
-              <h2>
-                Mainstream VC funding often flows to large corporations focused
-                on expensive detection methods that are not only less accessible
-                but, in many cases, less accurate, invasive, and emit radiation.
-              </h2>
-              <h2>
-                To bridge this gap, alternative funding models are essential.
-                Supporting cancer detection innovation means recognizing the
-                immense potential of combining the latest technology with
-                natural, cost-effective solutions like canine scent detection.
-                With support from the crypto community and the right resources,
-                this groundbreaking ability could become a widespread tool in
-                the fight against cancer—saving lives and transforming the way
-                we approach early-stage diagnosis.
-              </h2>
+              <div className="dogtext_3">
+                <h2>
+                  This creates a critical gap in advancing early detection
+                  methods that are both powerful and affordable for everyone.
+                </h2>
+
+                <h2>
+                  To bridge this gap, alternative funding models are essential.
+                  Supporting cancer detection innovation means recognizing the
+                  immense potential of combining the latest technology with
+                  natural, cost-effective solutions like canine scent detection.
+                  With support from the crypto community and the right
+                  resources, this groundbreaking ability could become a
+                  widespread tool in the fight against cancer—saving lives and
+                  transforming the way we approach early-stage diagnosis.
+                </h2>
+              </div>
             </div>
           </div>
         </div>

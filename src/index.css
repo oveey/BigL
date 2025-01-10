@@ -19,21 +19,21 @@ html {
   scroll-behavior: smooth;
 }
 
-/* @font-face {
+@font-face {
   font-family: 'Grotesk Remix Monospace';
-  src: url('/src/assets/Grotesk/font.woff') format('woff'),
-       url('/src/assets/Grotesk/font.woff2') format('woff2');
+  src: url('./assets/Grotesk/font.woff') format('woff'),
+       url('./assets/Grotesk/font.woff2') format('woff2');
   font-weight: 400; 
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Grotesk Remix Monospace';
-  src: url('/src/assets/Grotesk/font.woff') format('woff'),
-       url('/src/assets/Grotesk/font.woff2') format('woff2');
+  src: url('./assets/Grotesk/font.woff') format('woff'),
+       url('./assets/Grotesk/font.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
-} */
+}
 
 
 
