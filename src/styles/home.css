@@ -72,6 +72,7 @@
   border: none;
 }
 
+
 /***************************************** Who we are section **********************************************************************************/
 
 .comment__section {
@@ -108,17 +109,34 @@
   border: 2px solid #6d0f43;
   border-radius: 10px;
   align-items: center;
-  gap: 3rem;
-  /* width: 400px; */
+  width: 700px; 
   height: 65px;
   background: transparent;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0 15px 0 0 ;
 }
 .contract {
-  fill: #6d0f43;
+  background: #6d0f43;
+  padding: 14px;
+  border-radius: 10px 0 0 10px;
+  cursor: pointer;
+}
+
+.address p{
+    color: #6d0f43;
+}
+
+
+
+.button p {
+    color: white;
+    font-family: "Murtaugh Condensed L";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+  
 }
 .contract p {
-  color: #e3ead8;
   font-family: "Murtaugh Condensed L";
   font-size: 52px;
   font-style: normal;

@@ -67,7 +67,7 @@ export const Home = () => {
             <img src="/assets/startbigling.svg"></img>
             <button className="button">
               <p className="contract">Contract Address</p>
-              <p>djdsfb384y34o343n </p>
+              <p className="address">djdsfb384y34o343n </p>
               <img src="/assets/copy.svg"></img>
             </button>
           </div>
