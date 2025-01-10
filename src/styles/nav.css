@@ -65,7 +65,7 @@
   display: none;
 }
 
-@media (max-width: 920px) {
+@media (max-width: 1200px) {
   .link {
     color: var(--Gulf-Blue-50, #e9f7ff);
     cursor: pointer;
@@ -89,15 +89,13 @@
     color: #ffffff;
     display: block;
   }
-  .nav_icon{
+  .nav_icon {
     display: none;
   }
 
   .nav_link {
-
     color: #ffffff;
   }
-  
 
   .home__nav ul {
     display: flex;
@@ -146,7 +144,6 @@
     opacity: 1 !important;
     font-size: 10px;
     background-color: #dfbf7d;
-    ;
   }
 
   .home__nav button span:nth-child(1) {
@@ -201,4 +198,26 @@
     opacity: 1;
     transition-delay: 0.1s;
   }
+}
+
+@media (max-width: 350px) {
+
+
+
+  .home__nav ul {
+    font-size: 26px;
+
+  }
+  .nav_icon2 {
+    display: none;
+    
+  }
+
+
+
+
+ 
+
+
+
 }

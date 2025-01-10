@@ -34,8 +34,8 @@ export const Nav = () => {
   // Handle window resize for mobile view
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 900);
-      if (window.innerWidth > 900) {
+      setIsMobile(window.innerWidth <= 1200);
+      if (window.innerWidth > 1200) {
         setIsOpen(false); // Close menu if resizing above 900px
       }
     };
