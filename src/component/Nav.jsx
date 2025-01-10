@@ -9,7 +9,6 @@ export const Nav = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 900);
   const location = useLocation();
 
-  // Scroll to top or target section on navigation
   useEffect(() => {
     const { hash } = location;
     if (hash) {
@@ -84,38 +83,30 @@ export const Nav = () => {
 
         <li>
           <Link to="/" className="nav_link">
-            <img
-              src="/assets/Buybutton.svg"
-              className="nav_icon"
-            />
+            <img src="/assets/Buybutton.svg" className="nav_icon" />
           </Link>
         </li>
 
         <li>
           <Link to="/" className="nav_link">
-            <img
-              src="/assets/telegram.svg"
-              className="nav_icon"
-            />
+            <img src="/assets/telegram.svg" className="nav_icon" />
           </Link>
         </li>
         <li>
           <Link to="/" className="nav_link">
-            <img
-              src="/assets/X.svg"
-              className="nav_icon"
-            />
+            <img src="/assets/X.svg" className="nav_icon" />
           </Link>
         </li>
-
-       
       </ul>
-
-      <button className={`${isOpen ? "menu" : ""}`} onClick={toggleMenu}>
-        <span className="line top"></span>
-        <span className="line middle"></span>
-        <span className="line last"></span>
-      </button>
+      <div className="mobile__socials">
+        <img src="/assets/telegram.svg" className="nav_icon" />
+        <img src="/assets/X.svg" className="nav_icon" />
+        <button className={`${isOpen ? "menu" : ""}`} onClick={toggleMenu}>
+          <span className="line top"></span>
+          <span className="line middle"></span>
+          <span className="line last"></span>
+        </button>
+      </div>
     </div>
   );
 };

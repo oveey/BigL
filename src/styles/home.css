@@ -103,13 +103,13 @@
   align-items: flex-end;
 }
 
-button {
+.button {
   display: flex;
   border: 2px solid #6d0f43;
   border-radius: 10px;
   align-items: center;
   gap: 3rem;
-  width: 400px;
+  /* width: 400px; */
   height: 65px;
   background: transparent;
   justify-content: center;
@@ -148,10 +148,6 @@ button {
 }
 .whoweare__section2 {
   background: #e3ead8;
-  padding: 80px 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   transform: translateY(-60rem); /* Equivalent to -30px */
 }
 
@@ -249,8 +245,9 @@ button {
 .box__3 {
   display: flex;
   justify-content: center;
-  padding: 80px 0 50px 50px;
-  /* flex-wrap: wrap; */
+  padding: 80px 50px;
+  display: flex;
+  align-items: center;  /* flex-wrap: wrap; */
   gap: 10px;
 }
 
@@ -366,8 +363,9 @@ button {
 }
 .section__5 {
   background: #6d0f43;
-  padding: 200px;
   transform: translateY(-60rem); /* Equivalent to -30px */
+  z-index: -1000;
+
 }
 .section__5 h1 {
   color: var(--Color-6, #dfbf7d);
@@ -378,10 +376,12 @@ button {
   letter-spacing: -24.027px;
 }
 
+
+
+
+
 .ba_da_bling {
-  display: flex;
-  flex-direction: column;
-  gap: -200rem;
+  padding: 0 0 80px 0;
 }
 
 .ba {
@@ -412,7 +412,7 @@ button {
 
 .tokenomics__header {
   display: flex;
-  gap: 8rem;
+  gap: 4rem;
   justify-content: center;
   align-items: flex-end;
 }
@@ -603,11 +603,13 @@ button {
 }
 .dogtext_3 h2 {
   text-align: left;
+  color: #6d0f43;
+
 }
-.dogtext h2 {
+/* .dogtext h2 {
   text-align: left;
   padding: 30px 0;
-}
+} */
 
 .dogtext_2 h1 {
   text-align: left;
@@ -622,6 +624,8 @@ button {
 
 .dogtext_2 h2 {
   text-align: left;
+  color: #6d0f43;
+
 }
 .dogtext h2 {
   padding: 30px 0;
@@ -633,6 +637,18 @@ button {
   text-align: left;
 }
 
+
+
+.paws{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+}
+.paws h1{
+    text-align: left;
+    max-width: 800px;
+}
 
 
 @media (max-width: 1200px) {
@@ -691,16 +707,7 @@ button {
     margin-bottom: 6rem;
   }
 
-  .comment__con {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-    height: 480px;
-    gap: 20px;
-    padding: 0 90px;
-  }
+
 
   .comment__heading {
     font-size: 32px;
@@ -761,19 +768,27 @@ button {
     z-index: 0;
   }
 
+  .button__con{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2rem;
+  }
+
   .header__inner__con {
     gap: 2rem;
     padding: 16px;
   }
 
   .header__text {
-    font-size: 75.762px;
+    font-size: 80px;
+    max-width: 300px;
   }
 
   .header__p {
     font-size: 16px;
     flex-direction: column;
   }
+
 
   .comment__tag {
     flex-direction: column;
@@ -810,12 +825,19 @@ button {
   .whoweare {
     margin-top: 50px;
   }
+  .whoweare__section h1 h2 {
+    font-size: 58px;
+  }
+
+  .whoweare__section2 h1  {
+    font-size: 58px;
+  }
   .whoweare h2 {
     font-size: 25px;
   }
 
   .whoweare__con {
-    padding: 0 16px;
+    padding: 16px;
     align-items: center;
     flex-direction: column;
     gap: 64px;
@@ -856,19 +878,10 @@ button {
 
   /***************************************** Comment section **********************************************************************************/
 
-  .comment__section {
-    padding: 16px;
-  }
 
   .comment__con {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-    height: 480px;
-    gap: 20px;
-    padding: 0 20px;
+    padding: 16px;
   }
 
   .comment__heading {
@@ -882,7 +895,6 @@ button {
 
   .our__service__section {
     padding: 16px;
-    overflow: hidden;
     margin-bottom: 6rem;
   }
   .our__service__con {
@@ -903,6 +915,16 @@ button {
   .Purpose__con {
     flex-direction: column;
     align-items: flex-end;
+  }
+  
+  .Purpose__section h1 {
+    font-size: 58px;
+
+  }
+
+  .Purpose__text h2 {
+    font-size: 28px;
+
   }
 
   /***************************************** Footer section **********************************************************************************/
@@ -951,10 +973,17 @@ button {
 
   .tokenomics__section {
     transform: translateY(20rem);
+    padding: 16px;
   }
 
   .tokenomics__container img {
     display: none;
+  }
+
+
+
+  .dogtext h2{
+    font-size: 20px;
   }
 
 

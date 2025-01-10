@@ -1,11 +1,12 @@
-body {
+html, body {
   margin: 0;
   font-family: "Grotesk Remix Monospace", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400; /* Default Regular */
   background: #dfbf7d;
-  overflow-x: hidden;
+
+
 }
 
 * {

@@ -49,7 +49,7 @@ export const Home = () => {
 
           <div className="button__con">
             <p> Click for the Full Story on X</p>
-            <img src="/assets/pointing.svg"></img>
+            <img className="pointing__img" src="/assets/pointing.svg"></img>
           </div>
         </div>
       </section>
@@ -65,7 +65,7 @@ export const Home = () => {
           </div>
           <div className="comment__tag">
             <img src="/assets/startbigling.svg"></img>
-            <button>
+            <button className="button">
               <p className="contract">Contract Address</p>
               <p>djdsfb384y34o343n </p>
               <img src="/assets/copy.svg"></img>
@@ -108,6 +108,7 @@ export const Home = () => {
           <h1 className="da">Da</h1>
           <h1 className="bling">Bling</h1>
         </div>
+        <img src="/assets/paaawws.svg" alt="" />
       </section>
 
       <section className="whoweare__section" id="who">
@@ -195,9 +196,11 @@ export const Home = () => {
       </section>
 
       <section className="whoweare__section2" id="who">
-        <h1>Paws & reflect</h1>
-        <h1>How to start BigLing</h1>
-        {/* <img src="/assets/sketches2.svg"></img> */}
+        <div className="paws">
+          <h1>Paws & reflect <span>How to start BigLing</span></h1>
+          <img className="sketch" src="/assets/sketches2.svg"></img>
+
+        </div>
 
         <div className="whoweare__con">
           <div className="whoweare">
