@@ -19,7 +19,10 @@ export const Home = () => {
   return (
     <>
       <section className="header__section" id="home">
+        <div className="hero_image">
         <img src="/assets/herodog.png"></img>
+
+        </div>
 
         <div className="header__inner__con ">
           <div className="header__con">

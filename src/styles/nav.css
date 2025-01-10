@@ -5,7 +5,7 @@
   padding: 10px 80px;
   z-index: 2000;
   top: 0;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   width: 100%;
 }
@@ -17,7 +17,7 @@
   display: flex;
   cursor: pointer;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
   align-content: flex-end;
   color: #6d0f43;
   justify-content: flex-end;
@@ -27,7 +27,7 @@
   background: rgb(255, 255, 255);
   border: 1px solid rgba(255, 255, 255, 0.26);
   font-weight: 500;
-  font-size: 20px;
+  font-size: 25px;
   cursor: pointer;
   border-radius: 138.462px;
   padding: 16px 32px;
@@ -38,7 +38,7 @@
   background: rgb(255, 255, 255);
   border: 1px solid rgba(255, 255, 255, 0.26);
   font-weight: 500;
-  font-size: 20px;
+  font-size: 25px;
   cursor: pointer;
   border-radius: 138.462px;
   padding: 16px 32px;
@@ -65,7 +65,7 @@
   display: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 920px) {
   .link {
     color: var(--Gulf-Blue-50, #e9f7ff);
     cursor: pointer;
@@ -89,6 +89,15 @@
     color: #ffffff;
     display: block;
   }
+  .nav_icon{
+    display: none;
+  }
+
+  .nav_link {
+
+    color: #ffffff;
+  }
+  
 
   .home__nav ul {
     display: flex;
@@ -98,7 +107,7 @@
     position: fixed;
     height: 100vh;
     overflow-y: hidden;
-    width: 70%;
+    width: 100%;
     top: 0;
     right: 0;
     z-index: 2000;
@@ -136,7 +145,8 @@
     pointer-events: unset !important;
     opacity: 1 !important;
     font-size: 10px;
-    background: #001a52;
+    background-color: #dfbf7d;
+    ;
   }
 
   .home__nav button span:nth-child(1) {

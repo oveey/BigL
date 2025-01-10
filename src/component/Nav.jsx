@@ -99,8 +99,8 @@ export const Nav = () => {
         </li>
       </ul>
       <div className="mobile__socials">
-        <img src="/assets/telegram.svg" className="nav_icon" />
-        <img src="/assets/X.svg" className="nav_icon" />
+        <img src="/assets/telegram.svg" className="nav_icon2" />
+        <img src="/assets/X.svg" className="nav_icon2" />
         <button className={`${isOpen ? "menu" : ""}`} onClick={toggleMenu}>
           <span className="line top"></span>
           <span className="line middle"></span>
